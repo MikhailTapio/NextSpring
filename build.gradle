@@ -14,9 +14,9 @@ buildscript {
 apply plugin: 'scala'
 apply plugin: 'net.minecraftforge.gradle.forge'
 
-version = "1.9.X-1.10.X-1.0.2"
+version = "${version}"
 group = "committee.nova.ns" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "NextSpring"
+archivesBaseName = "NextSpring-Forge"
 
 minecraft {
     version = "1.9.4-12.17.0.2317-1.9.4"
