@@ -23,7 +23,7 @@ object Utilities {
     val plant = block.asInstanceOf[IGrowable]
     try {
       if (!plant.func_149851_a(world, x, y, z, world.isRemote)) return false
-      if (!plant.func_149852_a(world, world.rand, x, y, z)) return false
+      if (respectVanillaCriteria && !plant.func_149852_a(world, world.rand, x, y, z)) return false
       plant.func_149853_b(world, world.rand, x, y, z)
     } catch {
       case _: Exception => return false
