@@ -6,7 +6,7 @@ buildscript {
         }
         maven {
             name = "forge"
-            url = "http://files.minecraftforge.net/maven"
+            url = "https://files.minecraftforge.net/maven"
         }
         maven {
             name = "sonatype"
@@ -26,7 +26,7 @@ apply plugin: 'idea'
 
 version = "${version}"
 group = "committee.nova.nextspring" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "NextSpring"
+archivesBaseName = "NextSpring-Forge"
 
 minecraft {
     version = "1.7.10-10.13.4.1614-1.7.10"
