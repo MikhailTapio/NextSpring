@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "nextspring",
+    "name": "NextSpring",
+    "description": "Though turned to mud, they'd quicken flowers' birth next spring.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "Tapio"
+    ],
+    "credits": "Thanks to Rinko1231 for the idea",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
