@@ -23,6 +23,6 @@ class CommonConfig(event: FMLPreInitializationEvent) {
   expireTime = config.getInt("expireTime", Configuration.CATEGORY_GENERAL, 6000, 20, 36000, "Expire time of a rotten flesh itemEntity. If smaller than the refreshInterval, the itemEntity will disappear when it refreshes for the first time.")
   influencedByBiome = config.getBoolean("biomeInfluence", Configuration.CATEGORY_GENERAL, true, "Should the possibility of catalysis be influenced by biome properties (temperature & rainfall)?")
   possibilityMultiplier = config.getFloat("possibilityMultiplier", Configuration.CATEGORY_GENERAL, 1F, Float.MinValue, Float.MaxValue / 2, "The possibility multiplier. The greater the value is, the more the possibility the plant is catalyzed.")
-  respectVanillaCriteria = config.getBoolean("respectVanillaCriteria", Configuration.CATEGORY_GENERAL, true, "Should we respect vanilla's bone meal catalysis criteria? A example is when you try to bone-meal a tree, It has a 45% chance of growing.")
+  respectVanillaCriteria = config.getBoolean("respectVanillaCriteria", Configuration.CATEGORY_GENERAL, true, "Should we respect vanilla's bone meal catalysis criteria? An example is when you try to bone-meal a tree, It has a 45% chance of growing.")
   config.save()
 }
